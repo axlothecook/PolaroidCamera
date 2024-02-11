@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto+Slab&family=Roboto:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{color: black; background-color: #efefef;}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0px 0px 0px;
+    
+}
+
+.subcontainer{margin-left: 600px;}
+
+.subcontainer > a{
+    padding: 0 30px;
+}
+
+a {
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: inherit;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.main{
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+
+
+.titlecontainer{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 430px;
+    gap: 35px;
+    top: 18em;
+    left: 13em;
+}
+
+#maintitle{font-family: 'Roboto Slab'; font-size: 50px;}
+
+
+#subtitle{font-family: 'Poppins';}
+
+button{
+    background-color: #efc32b;
+    border: none;
+    border-radius: 5px;
+    padding: 13px 33px;
+    color: inherit;
+    text-align: center;
+    font-family: 'Roboto Slab';
+    font-size: 19px;
+    word-spacing: 2px;
+}
+
+.img{
+    position: absolute;
+    top: 16em;
+    right: 18em;
+}
+
+#polaroidimg{
+    width: 450px;
+    height: 550px;
+}
+
+.titlecontainer button:hover{
+    cursor: pointer;
+    background-color: #efc32b;
+    opacity: 0.9;
+}
+
+.titlecontainer button:active{
+    cursor: pointer;
+    background-color: gold;
+}
+
